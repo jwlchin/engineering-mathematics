@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.6671.38791"?>
+<regions xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings dpi="96">
+    <identity>
+      <id>5eee3c33-7886-4d59-bcc2-d76aaabfd468</id>
+      <revision>13</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="true" viewMode="0" printGrid="False" printAreas="True" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.6671.38791" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.99.6671.38791" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Text Region" version="1.10.6671.38794" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <region id="0" left="72" top="54" width="667" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>We can solve the quadratic equation  2x^2+9x+7=0 with the</p>
+    </text>
+  </region>
+  <region id="1" left="72" top="81" width="596" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>formula x=(-b±sqrt(b^2-4ac))/2a without any issues </p>
+    </text>
+  </region>
+  <region id="2" left="288" top="198" width="253" height="74" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">x</e>
+        <e type="operand">b</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">b</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">^</e>
+        <e type="operand">4</e>
+        <e type="operand">a</e>
+        <e type="operator" args="2">*</e>
+        <e type="operand">c</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">-</e>
+        <e type="bracket">(</e>
+        <e type="function" args="1">sqrt</e>
+        <e type="operator" args="2">±</e>
+        <e type="bracket">(</e>
+        <e type="operand">2</e>
+        <e type="operand">a</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">/</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="3" left="324" top="288" width="61" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">a</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="4" left="315" top="342" width="61" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">b</e>
+        <e type="operand">9</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="5" left="315" top="405" width="61" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">c</e>
+        <e type="operand">7</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="6" left="279" top="468" width="124" height="59" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">x</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">1</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">3.5</e>
+        <e type="operator" args="1">-</e>
+        <e type="operand">2</e>
+        <e type="operand">1</e>
+        <e type="function" args="4">sys</e>
+      </result>
+    </math>
+  </region>
+  <region id="7" left="54" top="612" width="695" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>But if we solve 5x^2-6x+5=0, we will get x=(6±sqrt(-64))/10</p>
+    </text>
+  </region>
+  <region id="8" left="9" top="675" width="740" height="41" color="#ff0000" bgColor="#ffffff" fontSize="20">
+    <text lang="eng">
+      <p>How can we determine the square root of -64?</p>
+    </text>
+  </region>
+  <region id="9" left="45" top="765" width="701" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>8 and -8 are the square roots of 64 but not the square root </p>
+    </text>
+  </region>
+  <region id="10" left="45" top="792" width="95" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>of -64.</p>
+    </text>
+  </region>
+  <region id="11" left="45" top="864" width="175" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>-64 = -1*64 so</p>
+    </text>
+  </region>
+  <region id="12" left="27" top="918" width="602" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>sqrt(-64)=sqrt(-1*64)=sqrt(-1)*sqrt(-64)=sqrt(-1)*8</p>
+    </text>
+  </region>
+  <region id="13" left="27" top="1044" width="639" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>We have to write the the square root of -1 as i so the</p>
+    </text>
+  </region>
+  <region id="14" left="27" top="1071" width="303" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>square root of -64 is 8i.</p>
+    </text>
+  </region>
+  <region id="15" left="153" top="1125" width="233" height="31" color="#000000" bgColor="#ffffff" fontSize="14">
+    <text lang="eng">
+      <p>so for 5x^2-6x+5=0,</p>
+    </text>
+  </region>
+  <region id="16" left="153" top="1161" width="61" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">a</e>
+        <e type="operand">5</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="17" left="153" top="1224" width="78" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">b</e>
+        <e type="operand">6</e>
+        <e type="operator" args="1">-</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="18" left="144" top="1278" width="61" height="30" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">c</e>
+        <e type="operand">5</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="19" left="126" top="1368" width="186" height="59" color="#000000" bgColor="#ffffff" fontSize="14">
+    <math>
+      <input>
+        <e type="operand">x</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.6</e>
+        <e type="operand">0.8</e>
+        <e type="operand">i</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">+</e>
+        <e type="operand">0.6</e>
+        <e type="operand">0.8</e>
+        <e type="operand">i</e>
+        <e type="operator" args="2">*</e>
+        <e type="operator" args="2">-</e>
+        <e type="operand">2</e>
+        <e type="operand">1</e>
+        <e type="function" args="4">sys</e>
+      </result>
+    </math>
+  </region>
+</regions>
